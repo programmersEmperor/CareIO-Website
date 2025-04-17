@@ -96,7 +96,7 @@ export default function DownloadApp({dict}: Props) {
                 transition={{ duration: 0.5, delay: 0.6 }}
                 className="flex items-center justify-center lg:justify-start"
               >
-                <Link href="https://api.careio.app/storage/app/careio.apk">
+                <Link href={process.env.NEXT_PUBLIC_DOWNLOAD_URL!}>
                 <button className="w-[180px] h-[45px] sm:h-[50px] md:w-[250px] lg:h-[55px] xl:h-[40px]  xl:w-[200px] 2xl:w-[220px] 2xl:h-[55px]  bg-gradient-to-l from-[#046762] to-[#06988E] rounded-[12px]  px-[23px] py-[7px] md:px-[40px] md:py-[13px] flex justify-between items-center font-bold text-white text-[15px] md:text-[18px] 2xl:text-[17px] xl:text-[15px]">
                   <Image
                     className="h-[20px] w-[20px] md:h-[25px] md:w-[25px] xl:h-[20px] xl:w-[20px] 2xl:h-[25px] 2xl:w-[25px]"

@@ -84,7 +84,7 @@ export default function Banner({dict}: Props)  {
               >
                 <DownloadButton dict={dict}/>
                 <Link
-                  href={"https://dashboard.careio.app"}
+                  href={process.env.NEXT_PUBLIC_DASHBOARD_URL!}
                   className="lg:h-[50px] xl:h-[40px] 2xl:h-[55px] justify-center flex items-center bg-[white] text-[#12515E] h-[45px] sm:h-[50px] rounded-lg text-[15px] sm:text-[18px] 2xl:text-[18px] xl:text-[13px] font-bold"
                 >
                   {t.Go_To_Dashboard}

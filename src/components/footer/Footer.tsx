@@ -110,7 +110,7 @@ export default function Footer({dict, navItems}: Props){
                     />
                     <div className="w-[8px]"></div>
                     <p className="text-[16px] xl:text-[14px] 2xl:text-[20px] font-medium">
-                      info@gmail.com
+                      mutasim@almualimi.com
                     </p>
                   </div>
                   <div className="flex items-center text-[16px] font-medium mb-[8px] ">
